@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: lightgray;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    left: 575px;
+}
+
