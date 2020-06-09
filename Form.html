@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="form.css">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <main>
+        <form class="contact-form" action="form.php" method="post">
+            <button type="submit" class="upload" name="Upload Image">Upload Image</button>
+            <br></br>
+            <input id="description" type="text" name="Name" placeholder="Description">
+            <br></br>
+            <input id="price" type="text" name="Price" placeholder="Price">
+            <br></br>
+            <label for="cars">Sell or Exchange</label>
+            <select id="cars" name="cars">
+              <option value="volvo">Sell</option>
+              <option value="saab">Exchange</option>
+              <option value="fiat">Both</option>
+            </select>
+            <input type="submit">
+            <br></br>
+        </form>
+    </main>
+</body>
+</html>
